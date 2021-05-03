@@ -5,13 +5,13 @@ using System.IO;
 using CrystalDecisions.CrystalReports.Engine;
 using CrystalDecisions.Shared;
 
-namespace RefreshCrMas2017
+namespace RefreshCrMas2020
 {
-    class RefreshCrMas2017
+    class RefreshCrMas2020
     {
-        private const string SsqlConnection = "Server=POLMAS01\\SAGE17;Database=POL;Integrated Security=True";
-        private const string ReportDirectory = "\\\\POLMAS01\\Sage\\540\\MAS90\\Reports\\";
-        private const string ReportDirectoryTemp = "\\\\POLMAS01\\Sage\\540\\MAS90\\Reports\\temp\\";
+        private const string SsqlConnection = "Server=POL-MAS-02\\SAGE20;Database=POL;Integrated Security=True";
+        private const string ReportDirectory = "\\\\POL-MAS-02\\Sage\\620\\MAS90\\Reports\\";
+        private const string ReportDirectoryTemp = "\\\\POL-MAS-02\\Sage\\620\\MAS90\\Reports\\temp\\";
         private static string _reportFile;
         private static string _parameterName;
         private static string _parameterField;
